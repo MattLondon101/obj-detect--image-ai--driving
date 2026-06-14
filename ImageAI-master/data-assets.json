@@ -1,0 +1,29 @@
+{
+  "assets": [
+    {
+      "path": "ImageAI-master/data-videos/traffic.mp4",
+      "url": "https://example.com/path/to/traffic.mp4",
+      "sha256": "185f562ed82a874f72cb361dde93254b64027a0656b304f0cad7c9b4c7fcbae6",
+      "notes": "Replace this URL with the authoritative online source for the sample driving video."
+    },
+    {
+      "path": "ImageAI-master/data-videos/traffic-mini.mp4",
+      "url": "https://example.com/path/to/traffic-mini.mp4",
+      "sha256": "fb76d926491d347fb3837f7d3b1740891230bd814322b3482d159c0b7b3c5b97",
+      "notes": "Replace this URL with the authoritative online source for the small sample driving video."
+    },
+    {
+      "path": "ImageAI-master/data-videos/holo1.mp4",
+      "url": "https://example.com/path/to/holo1.mp4",
+      "sha256": "b5e8abf96a51ff6bf8e50d8442aa9b6d4267f841946f86125777bce685fd1cd5",
+      "notes": "Replace this URL with the authoritative online source for the Hololens sample video."
+    },
+    {
+      "path": "ImageAI-master/test/data-datasets/hololens.zip",
+      "url": "https://example.com/path/to/hololens.zip",
+      "sha256": "",
+      "extract": "ImageAI-master/test/data-datasets",
+      "notes": "Archives can be downloaded and extracted into the expected local test-data path."
+    }
+  ]
+}

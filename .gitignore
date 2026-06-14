@@ -1,0 +1,31 @@
+# Downloaded media and datasets. Keep source URLs/checksums in data-assets.json
+# and regenerate these paths with scripts/fetch_assets.py.
+ImageAI-master/data-images/
+ImageAI-master/data-videos/
+ImageAI-master/test-images/
+ImageAI-master/test/data-images/
+ImageAI-master/test/data-videos/
+ImageAI-master/test/data-datasets/
+
+# Large model/checkpoint files belong in external storage, not Git.
+*.h5
+*.keras
+*.onnx
+*.pt
+*.pth
+*.weights
+*.ckpt
+*.tflite
+
+# Common local archive/download formats used by the asset fetcher.
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Python local caches.
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
